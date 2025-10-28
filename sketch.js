@@ -11,6 +11,9 @@ let nearAudiobar = false
 let movingAudiobar = false
 let volume = 0.5
 
+let windowWidth = 1920
+let windowHeight = 1080
+
 function preload() {
   stremioFont = loadFont('Comfortaa-Bold.ttf')
   backButton = loadImage('backButton.png')
